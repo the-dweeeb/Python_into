@@ -1,0 +1,34 @@
+type: edu
+files:
+- name: dicts.py
+  visible: true
+  placeholders:
+  - offset: 311
+    length: 12
+    placeholder_text: Jane's phone
+    initial_state:
+      length: 12
+      offset: 311
+    initialized_from_dependency: false
+    possible_answer: phone_book['Jane']
+    selected: false
+    status: Unchecked
+  text: |
+    # create new dictionary.
+    phone_book = {"John": 123, "Jane": 234, "Jerard": 345}    # "John", "Jane" and "Jerard" are keys and numbers are values
+    print(phone_book)
+
+    # Add new item to the dictionary
+    phone_book["Jill"] = 345
+    print(phone_book)
+
+    # Remove key-value pair from phone_book
+    del phone_book['John']
+
+    print(Jane's phone)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

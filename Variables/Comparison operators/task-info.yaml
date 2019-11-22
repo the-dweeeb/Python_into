@@ -1,0 +1,30 @@
+type: edu
+files:
+- name: comparison_operators.py
+  visible: true
+  placeholders:
+  - offset: 188
+    length: 1
+    placeholder_text: operator
+    initial_state:
+      length: 8
+      offset: 188
+    initialized_from_dependency: false
+    possible_answer: '>'
+    selected: false
+    status: Solved
+  text: |
+    one = 1
+    two = 2
+    three = 3
+
+    print(one < two < three)  # This chained comparison means that the (one < two) and (two < three) comparisons are performed at the same time.
+
+    is_greater = three operator two
+    print(is_greater)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

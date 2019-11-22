@@ -1,0 +1,27 @@
+type: edu
+files:
+- name: slicing.py
+  visible: true
+  placeholders:
+  - offset: 167
+    length: 16
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 167
+    initialized_from_dependency: false
+    possible_answer: monty_python[6:]
+    selected: false
+    status: Solved
+  text: |
+    monty_python = "Monty Python"
+    monty = monty_python[:5]      # one or both index could be dropped. monty_python[:5] is equal to monty_python[0:5]
+    print(monty)
+    python = type here
+    print(python)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

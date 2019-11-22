@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: type_cast.py
+  visible: true
+  placeholders:
+  - offset: 113
+    length: 17
+    placeholder_text: Convert float_number to integer
+    initial_state:
+      length: 31
+      offset: 113
+    initialized_from_dependency: false
+    possible_answer: int(float_number)
+    selected: true
+    status: Solved
+  text: |
+    number = 9
+    print(type(number))   # print type of variable "number"
+
+    float_number = 9.0
+    print(float_number)
+    print(Convert float_number to integer)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

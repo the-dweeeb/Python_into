@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: string_methods.py
+  visible: true
+  placeholders:
+  - offset: 131
+    length: 20
+    placeholder_text: upper cased monty_python
+    initial_state:
+      length: 24
+      offset: 131
+    initialized_from_dependency: false
+    possible_answer: monty_python.upper()
+    selected: true
+    status: Solved
+  text: |
+    monty_python = "Monty Python"
+    print(monty_python)
+
+    print(monty_python.lower())    # print lower-cased version of the string
+
+    print(upper cased monty_python)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

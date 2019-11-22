@@ -1,0 +1,25 @@
+type: edu
+files:
+- name: string_multiplication.py
+  visible: true
+  placeholders:
+  - offset: 38
+    length: 1
+    placeholder_text: operator
+    initial_state:
+      length: 8
+      offset: 38
+    initialized_from_dependency: false
+    possible_answer: '*'
+    selected: false
+    status: Solved
+  text: |
+    hello = "hello"
+    ten_of_hellos = hello operator 10
+    print(ten_of_hellos)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

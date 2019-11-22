@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: lists.py
+  visible: true
+  placeholders:
+  - offset: 70
+    length: 5
+    placeholder_text: slice
+    initial_state:
+      length: 5
+      offset: 70
+    initialized_from_dependency: false
+    possible_answer: squares[1:4]
+    selected: false
+    status: Unchecked
+  text: |
+    squares = [1, 4, 9, 16, 25]   # create new list
+    print(squares)
+
+    print(slice)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,33 @@
+type: edu
+files:
+- name: list_operations.py
+  visible: true
+  placeholders:
+  - offset: 257
+    length: 30
+    placeholder_text: replace 'dino' with 'dinosaur'
+    initial_state:
+      length: 30
+      offset: 257
+    initialized_from_dependency: false
+    possible_answer: animals[-1] = 'dinosaur'
+    selected: false
+    status: Unchecked
+  text: |
+    animals = ['elephant', 'lion', 'tiger', "giraffe"]  # create new list
+    print(animals)
+
+    animals += ["monkey", 'dog']    # add two items to the list
+    print(animals)
+
+    animals.append("dino")   # add one more item to the list using append() method
+    print(animals)
+
+    replace 'dino' with 'dinosaur'
+    print(animals)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

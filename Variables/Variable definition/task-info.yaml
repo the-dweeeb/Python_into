@@ -1,0 +1,30 @@
+type: edu
+files:
+- name: variable_definition.py
+  visible: true
+  placeholders:
+  - offset: 345
+    length: 15
+    placeholder_text: another value
+    initial_state:
+      length: 13
+      offset: 345
+    initialized_from_dependency: false
+    possible_answer: 5
+    selected: true
+    status: Solved
+  text: |
+    a = b = 2  # This is called a "chained assignment". It assigns the value 2 to variables "a" and "b".
+    print("a = " + str(a))   # We'll explain the expression str(a) later in the course. For now it is used to convert the  variable "a" to a string.
+    print("b = " + str(b))
+
+    greetings = "greetings"
+    print("greetings = " + str(greetings))
+    greetings = another value
+    print("greetings = " + str(greetings))
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

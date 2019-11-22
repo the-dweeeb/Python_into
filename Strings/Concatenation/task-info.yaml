@@ -1,0 +1,27 @@
+type: edu
+files:
+- name: concatenation.py
+  visible: true
+  placeholders:
+  - offset: 47
+    length: 19
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 47
+    initialized_from_dependency: false
+    possible_answer: hello + ' ' + world
+    selected: true
+    status: Solved
+  text: |
+    hello = "Hello"
+    world = 'World'
+
+    hello_world = type here
+    print(hello_world)      # Note: you should print "Hello World"
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

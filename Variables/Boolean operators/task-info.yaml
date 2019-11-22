@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: boolean_operators.py
+  visible: true
+  placeholders:
+  - offset: 34
+    length: 2
+    placeholder_text: operator
+    initial_state:
+      length: 8
+      offset: 34
+    initialized_from_dependency: false
+    possible_answer: ==
+    selected: false
+    status: Solved
+  text: |
+    two = 2
+    three = 3
+
+    is_equal = two operator three
+
+    print(is_equal)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

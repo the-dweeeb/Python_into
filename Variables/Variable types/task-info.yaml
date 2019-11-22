@@ -1,0 +1,27 @@
+type: edu
+files:
+- name: variable_type.py
+  visible: true
+  placeholders:
+  - offset: 93
+    length: 18
+    placeholder_text: float_number type
+    initial_state:
+      length: 17
+      offset: 93
+    initialized_from_dependency: false
+    possible_answer: type(float_number)
+    selected: false
+    status: Solved
+  text: |
+    number = 9
+    print(type(number))   # print type of variable "number"
+
+    float_number = 9.0
+    print(float_number type)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

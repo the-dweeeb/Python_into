@@ -1,0 +1,27 @@
+type: edu
+files:
+- name: comments.py
+  visible: true
+  placeholders:
+  - offset: 138
+    length: 60
+    placeholder_text: add new comment here
+    initial_state:
+      length: 20
+      offset: 138
+    initialized_from_dependency: false
+    possible_answer: new comment
+    selected: false
+    status: Solved
+  text: |
+    # This is the comment for the comments.py file
+    print("Hello!")  # this comment is for the second line
+
+    print("# this is not a comment")
+    # add new comment here
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

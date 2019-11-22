@@ -1,0 +1,29 @@
+type: edu
+files:
+- name: len_function.py
+  visible: true
+  placeholders:
+  - offset: 117
+    length: 27
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 117
+    initialized_from_dependency: false
+    possible_answer: phrase[:int(len(phrase)/2)]
+    selected: true
+    status: Solved
+  text: |
+    phrase = """
+    It is a really long string
+    triple-quoted strings are used
+    to define multi-line strings
+    """
+    first_half = type here
+    print(first_half)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

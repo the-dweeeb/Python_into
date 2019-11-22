@@ -1,0 +1,24 @@
+type: edu
+files:
+- name: undefined_variable.py
+  visible: true
+  placeholders:
+  - offset: 19
+    length: 12
+    placeholder_text: other variable
+    initial_state:
+      length: 14
+      offset: 19
+    initialized_from_dependency: false
+    possible_answer: other_variable
+    selected: false
+    status: Solved
+  text: |
+    variable = 1
+    print(other variable)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

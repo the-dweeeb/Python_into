@@ -1,0 +1,27 @@
+type: edu
+files:
+- name: in_operator.py
+  visible: true
+  placeholders:
+  - offset: 99
+    length: 18
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 99
+    initialized_from_dependency: false
+    possible_answer: '''ice'' in ice_cream'
+    selected: false
+    status: Solved
+  text: |
+    ice_cream = "ice cream"
+    print("cream" in ice_cream)    # print boolean result directly
+
+    contains = type here
+    print(contains)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

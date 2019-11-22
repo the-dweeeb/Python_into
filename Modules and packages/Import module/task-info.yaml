@@ -1,0 +1,71 @@
+type: edu
+files:
+- name: my_module.py
+  visible: true
+  text: |-
+    """ documentation string for module my_module
+    This module contains hello_world function
+    """
+
+
+    def hello_world(name):
+        print("Hello, World! My name is %s" % name)
+  learner_created: false
+- name: imports.py
+  visible: true
+  placeholders:
+  - offset: 164
+    length: 21
+    placeholder_text: here import my_module
+    initial_state:
+      length: 21
+      offset: 164
+    initialized_from_dependency: false
+    possible_answer: import my_module
+    selected: false
+    status: Unchecked
+  - offset: 187
+    length: 40
+    placeholder_text: call function hello_world from my_module
+    initial_state:
+      length: 40
+      offset: 187
+    initialized_from_dependency: false
+    possible_answer: my_module.hello_world('John')
+    selected: false
+    status: Unchecked
+  text: |2
+
+    import calculator
+
+    calc = calculator.Calculator()    # create new instance of Calculator class defined in calculator module
+    calc.add(2)
+    print(calc.get_current())
+
+    here import my_module
+
+    call function hello_world from my_module
+  learner_created: false
+- name: calculator.py
+  visible: true
+  text: |-
+    """
+    This module contains Calculator class
+    """
+
+
+    class Calculator:
+        def __init__(self):
+            self.current = 0
+
+        def add(self, amount):
+            self.current += amount
+
+        def get_current(self):
+            return self.current
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,31 @@
+type: edu
+files:
+- name: continue_keyword.py
+  visible: true
+  placeholders:
+  - offset: 154
+    length: 18
+    placeholder_text: Check if x is even
+    initial_state:
+      length: 18
+      offset: 154
+    initialized_from_dependency: false
+    possible_answer: x % 2 == 0
+    selected: false
+    status: Unchecked
+  text: |
+    for i in range(5):
+        if i == 3:
+            continue   # skip the rest of the code inside loop for current i value
+        print(i)
+
+    for x in range(10):
+        if Check if x is even:
+            continue   # skip print(x) for this loop
+        print(x)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

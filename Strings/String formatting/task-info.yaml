@@ -1,0 +1,36 @@
+type: edu
+files:
+- name: string_formatting.py
+  visible: true
+  placeholders:
+  - offset: 134
+    length: 2
+    placeholder_text: special symbol
+    initial_state:
+      length: 14
+      offset: 132
+    initialized_from_dependency: false
+    possible_answer: '%d'
+    selected: false
+    status: Solved
+  - offset: 150
+    length: 2
+    placeholder_text: years
+    initial_state:
+      length: 5
+      offset: 160
+    initialized_from_dependency: false
+    possible_answer: 17
+    selected: false
+    status: Solved
+  text: |
+    name = "John"
+    print("Hello, PyCharm! My name is %s!" % name)     # Note: %s is inside the string, % is after the string
+
+    print("I'm special symbol years old" % years)
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,26 @@
+type: edu
+files:
+- name: character_escaping.py
+  visible: true
+  placeholders:
+  - offset: 105
+    length: 48
+    placeholder_text: text
+    initial_state:
+      length: 4
+      offset: 105
+    initialized_from_dependency: false
+    possible_answer: The name of this ice-cream is "Sweet\'n\'Tasty"
+    selected: true
+    status: Solved
+  text: |
+    dont_worry = "Don't worry about apostrophes"
+    print(dont_worry)
+    print("\"Sweet\" is an ice-cream")
+    print('text')
+  learner_created: false
+- name: tests.py
+  visible: false
+  learner_created: false
+status: Solved
+record: -1
