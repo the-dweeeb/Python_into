@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 377
-    length: 33
+    length: 20
     placeholder_text: exit loop if animal is 'elephant'
     initial_state:
       length: 33
       offset: 377
     initialized_from_dependency: false
     possible_answer: animal == 'elephant'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     count = 0
 
@@ -33,5 +33,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

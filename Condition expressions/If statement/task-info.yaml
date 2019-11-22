@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 236
-    length: 25
+    length: 19
     placeholder_text: check if 'tasks' is empty
     initial_state:
       length: 25
       offset: 236
     initialized_from_dependency: false
     possible_answer: 'if len(tasks) == 0:'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     name = "John"
     age = 17
@@ -29,5 +29,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

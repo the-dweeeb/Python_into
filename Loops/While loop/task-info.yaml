@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 213
-    length: 30
+    length: 19
     placeholder_text: print all squares from 0 to 99
     initial_state:
       length: 30
       offset: 213
     initialized_from_dependency: false
     possible_answer: 'while square < 81:'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     square = 1
 
@@ -33,5 +33,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

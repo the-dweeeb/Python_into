@@ -4,25 +4,25 @@ files:
   visible: true
   placeholders:
   - offset: 352
-    length: 29
+    length: 19
     placeholder_text: check if name equal to "John"
     initial_state:
       length: 29
       offset: 352
     initialized_from_dependency: false
     possible_answer: 'if name == ''John'':'
-    selected: false
-    status: Unchecked
-  - offset: 398
-    length: 9
+    selected: true
+    status: Solved
+  - offset: 388
+    length: 5
     placeholder_text: otherwise
     initial_state:
       length: 9
       offset: 398
     initialized_from_dependency: false
     possible_answer: 'else:'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     x = 28
 
@@ -45,5 +45,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

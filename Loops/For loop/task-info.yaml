@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 238
-    length: 34
+    length: 16
     placeholder_text: iterate over primes using for loop
     initial_state:
       length: 34
       offset: 238
     initialized_from_dependency: false
     possible_answer: 'for prime in primes:'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     for i in range(5):    # for each number i in range 0-4. range(5) function returns list [0, 1, 2, 3, 4]
         print(i)          # this line is executed 5 times. First time i equals 0, then 1, ...
@@ -26,5 +26,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
