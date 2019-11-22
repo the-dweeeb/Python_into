@@ -9,35 +9,35 @@ files:
   visible: true
   placeholders:
   - offset: 92
-    length: 12
+    length: 3
     placeholder_text: add modifier
     initial_state:
       length: 12
       offset: 92
     initialized_from_dependency: false
     possible_answer: '''a'''
-    selected: false
-    status: Unchecked
-  - offset: 133
-    length: 35
+    selected: true
+    status: Solved
+  - offset: 116
+    length: 18
     placeholder_text: add the whole zoo to the output.txt
     initial_state:
       length: 35
       offset: 133
     initialized_from_dependency: false
     possible_answer: f.write(i)
-    selected: false
-    status: Unchecked
-  - offset: 174
-    length: 14
+    selected: true
+    status: Solved
+  - offset: 140
+    length: 9
     placeholder_text: close the file
     initial_state:
       length: 14
       offset: 174
     initialized_from_dependency: false
     possible_answer: f.close()
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     zoo = ['lion', "elephant", 'monkey']
 
@@ -52,5 +52,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
