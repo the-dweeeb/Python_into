@@ -15,27 +15,27 @@ files:
   visible: true
   placeholders:
   - offset: 266
-    length: 15
+    length: 11
     placeholder_text: print each line
     initial_state:
       length: 15
       offset: 266
     initialized_from_dependency: false
     possible_answer: print(line)
-    selected: false
-    status: Unchecked
-  - offset: 410
-    length: 27
+    selected: true
+    status: Solved
+  - offset: 406
+    length: 20
     placeholder_text: print only first line of f1
     initial_state:
       length: 27
       offset: 410
     initialized_from_dependency: false
     possible_answer: print(f1.readline())
-    selected: false
-    status: Unchecked
-  - offset: 439
-    length: 27
+    selected: true
+    status: Solved
+  - offset: 428
+    length: 10
     placeholder_text: do not forget to close file
     initial_state:
       length: 27
@@ -43,7 +43,7 @@ files:
     initialized_from_dependency: false
     possible_answer: f1.close()
     selected: false
-    status: Unchecked
+    status: Solved
   text: |2
 
     f = open("input.txt", "r")   # here we open file "input.txt". Second argument used to identify that we want to read file
@@ -63,5 +63,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

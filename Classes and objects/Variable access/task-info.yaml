@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 408
-    length: 33
+    length: 19
     placeholder_text: value of variable1 from my_object
     initial_state:
       length: 33
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: my_object.variable1
     selected: false
-    status: Unchecked
+    status: Solved
   text: |+
     class MyClass:
         variable1 = 1
@@ -37,5 +37,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
