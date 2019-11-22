@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 236
-    length: 30
+    length: 29
     placeholder_text: is 'fish' in grocery_dict keys
     initial_state:
       length: 30
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: '''fish'' in grocery_dict.keys()'
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     grocery_list = ["fish", "tomato", 'apples']   # create new list
 
@@ -25,5 +25,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

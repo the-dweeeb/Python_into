@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 301
-    length: 10
+    length: 16
     placeholder_text: clear list
     initial_state:
       length: 10
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: animals[:] = []
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     animals = ['elephant', 'lion', 'tiger', "giraffe", "monkey", 'dog']   # create new list
     print(animals)
@@ -29,5 +29,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

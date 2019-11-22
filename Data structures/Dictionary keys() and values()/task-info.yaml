@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 208
-    length: 17
+    length: 19
     placeholder_text: phone_book values
     initial_state:
       length: 17
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: phone_book.values()
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     phone_book = {"John": 123, "Jane": 234, "Jerard": 345}  # create new dictionary
     print(phone_book)
@@ -28,5 +28,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 257
-    length: 30
+    length: 24
     placeholder_text: replace 'dino' with 'dinosaur'
     initial_state:
       length: 30
       offset: 257
     initialized_from_dependency: false
     possible_answer: animals[-1] = 'dinosaur'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     animals = ['elephant', 'lion', 'tiger', "giraffe"]  # create new list
     print(animals)
@@ -29,5 +29,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
