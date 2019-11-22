@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 256
-    length: 58
+    length: 10
     placeholder_text: define a function named 'fun' to replace three lines above
     initial_state:
       length: 58
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: 'def fun():'
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     def hello_world():  # function named my_function
         print("Hello, World!")
@@ -34,5 +34,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

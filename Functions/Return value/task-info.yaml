@@ -4,35 +4,35 @@ files:
   visible: true
   placeholders:
   - offset: 373
-    length: 21
+    length: 1
     placeholder_text: initialize variable b
     initial_state:
       length: 21
       offset: 373
     initialized_from_dependency: false
     possible_answer: 1
-    selected: false
-    status: Unchecked
-  - offset: 465
-    length: 17
+    selected: true
+    status: Solved
+  - offset: 445
+    length: 9
     placeholder_text: update variable b
     initial_state:
       length: 17
       offset: 465
     initialized_from_dependency: false
     possible_answer: b = a + b
-    selected: false
-    status: Unchecked
-  - offset: 491
-    length: 17
+    selected: true
+    status: Solved
+  - offset: 463
+    length: 11
     placeholder_text: update variable a
     initial_state:
       length: 17
       offset: 491
     initialized_from_dependency: false
     possible_answer: a = tmp_var
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     def sum_two_numbers(a, b):
         return a + b            # return result to the function caller
@@ -58,5 +58,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

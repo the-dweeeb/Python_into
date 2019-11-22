@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 158
-    length: 55
+    length: 22
     placeholder_text: add parameters for function, set default value for name
     initial_state:
       length: 55
       offset: 158
     initialized_from_dependency: false
     possible_answer: subject, name='John'
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     def multiply_by(a, b=2):
         return a * b
@@ -30,5 +30,5 @@ files:
 - name: tests.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
